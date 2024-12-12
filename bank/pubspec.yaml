@@ -1,0 +1,21 @@
+name: bank
+description: Bank Flutter Application
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^0.13.3  # Example: Add the http package for making HTTP requests
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0  # Example: Add flutter_lints for linting
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/bnk.jpg  # Updated with your logo name 'bnk.jpg'
